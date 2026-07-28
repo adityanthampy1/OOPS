@@ -1,11 +1,12 @@
 package IttrativeStatement;
 
-public class QA3 {
+public class WhileQA3 {
 
 	public static void main(String[] args) {
-		for(int i=1;i<=5;i++) {
+		int i=1;
+		while(i<=5) {
 			System.out.println(i*i);
-			
+			i++;
 		}
 
 	}

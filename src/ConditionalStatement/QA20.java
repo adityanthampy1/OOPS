@@ -6,7 +6,7 @@ public class QA20 {
 
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
-		System.out.println("ENTER NUMBER(1-12): ");
+		System.out.println("ENTER NUMBER(1-12):    ");
 		int a=sc.nextInt();
 		
 		switch(a) {
@@ -32,20 +32,22 @@ public class QA20 {
 			System.out.println("JUL");
 			break;
 		case 8:
-			System.out.println("MAR");
+			System.out.println("AUG");
 			break;
 		case 9:
-			System.out.println("APR");
+			System.out.println("SEP");
 			break;
-		case 1:
-			System.out.println("JAN");
+		case 10:
+			System.out.println("OCT");
 			break;
-		case 1:
-			System.out.println("JAN");
+		case 11:
+			System.out.println("NOV");
 			break;
-		case 1:
-			System.out.println("JAN");
+		case 12:
+			System.out.println("DEC");
 			break;	
+		default:
+			System.out.println("INVALID INPUT");
 		}
 		
 
