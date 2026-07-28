@@ -1,12 +1,13 @@
 package IttrativeStatement;
 
-public class QA3 {
+public class DoWhileQA3 {
 
 	public static void main(String[] args) {
-		for(int i=1;i<=5;i++) {
+		int i=1;
+		do {
 			System.out.println(i*i);
-			
-		}
+			i++;
+		}while(i<=5);
 
 	}
 
