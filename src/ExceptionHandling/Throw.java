@@ -1,0 +1,14 @@
+package ExceptionHandling;
+
+public class Throw {
+
+	public static void main(String[] args) {
+		int age=15;
+		if(age<18) {
+			throw new IllegalArgumentException("Access denied - You must be lund");
+			
+		}
+		System.out.println("WELCOME");
+	}
+
+}
